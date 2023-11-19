@@ -1,5 +1,6 @@
 package com.mephi.service;
 
+
 import com.mephi.model.User;
 
 import java.util.List;
@@ -16,4 +17,6 @@ public interface UserService {
     List<User> getAllUsers();
 
     void cleanUsersTable();
+
+    void saveUser(User user);
 }
